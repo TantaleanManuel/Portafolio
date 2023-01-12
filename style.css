@@ -1,0 +1,202 @@
+/* Generalizacion con * */
+*
+{
+background: #020403;
+color: whitesmoke;
+box-sizing: border-box;
+font-family: 'Rubik', sans-serif;
+/* font-size:small; */
+}
+.navbar1{
+  border: 1px solid rgb(0, 255, 34);
+  display: flex;
+  /* justify-content: space-between;*/
+  align-items: center ; 
+
+
+}
+
+.header {
+  border: 1px solid crimson;
+  top:0;
+  width: 100%;
+
+  position: fixed;
+  z-index: 100;
+  }
+
+  .navbar__list{
+    display: flex;
+    /* justify-content: space-between;*/
+    align-items: center ;
+    gap: 5rem;
+  }
+
+  .navbar {
+    height: 60px;
+    display: contents;
+    justify-content: space-between;
+    align-items: center ;
+  }
+
+.navbar_menu{
+  /* border: 1px solid blue; */
+  display: flex;
+  /* justify-content: space-between;*/
+  align-items: center ; 
+
+}
+
+/* diseñador */
+.disenador {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 35em 5em 5em 5em 35em;
+    align-self: center;
+    /* border: 1px solid crimson; */
+  }
+
+.acerca {
+  width: 50%;
+  height: 10em;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 90em
+
+
+  }
+
+.acerca1 {
+  width: 15.625em;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid crimson; */
+}
+
+.contacto2 {
+  width: 15.625em;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid crimson; */
+  }
+
+ /* habilidades */
+.habilidad {
+  width: 100%;
+  height: 10em;
+  /* border: 1px solid crimson; */
+  display: flex;
+  justify-content: center;
+}
+
+.habilidad1 {
+  width: 25.625em;
+  height: 4.25em;
+  /* border: 1px solid crimson; */
+}
+
+.habilidad2 {
+  width: 25.625em;
+  height: 4.25em;
+  /* border: 1px solid crimson; */
+}
+
+/* portafolio */
+.portafolio {
+  width: 100%;
+  height: 18.75em;
+  /* border: 1px solid crimson; */
+  display: flex;
+  justify-content: center;
+  /* display: grid; */
+  grid-template-columns: 32.1875em 24.25rem 24.25em 24.25em 32.1875em;
+  /* align-self: center; */
+  /* border: 1px solid crimson; */
+}
+
+
+/* experiencia */
+.experiencia {
+  width: 100%;
+  height: 20em;
+  /* border: 1px solid crimson; */
+  display: flex;
+  justify-content: center;
+}
+
+.experiencia1 {
+  width: 6.625em;
+  height: 6.25em;
+  text-align: right;
+  /* border: 1px solid crimson; */
+}
+
+.experiencia2 {
+  width: 25.625em;
+  height: 6.25em;
+  /* border: 1px solid crimson; */
+}
+
+/* contacto */
+.contacto {
+  width: 100%;
+  height: 30vh;
+  /* border: 1px solid crimson; */
+  display: flex;
+  justify-content: center;
+  }
+
+.contacto1 {
+  width: 25.625em;
+  height: 6.25em;
+  /* border: 1px solid crimson; */
+}
+
+.contacto2 {
+  width: 25.625em;
+  height: 5.25em;
+  /* border: 1px solid crimson; */
+}
+
+/* laptop */
+@media (max-width: 1024px) {
+  body{
+    background-color: rgb(55, 255, 0);
+    }
+    
+    .navbar_menu {
+      position: fixed;
+      width: 300px;
+      height: 100vh;
+    }
+  
+    .navbar__list{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      }
+  }
+
+  /* laptop */
+@media (max-width: 1024px) {
+  .navbar__list{
+    display: flex;
+    align-items: center;
+    }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  .navbar__list{
+    display: flex;
+    align-items: center;
+    }
+}
+  
+/* tablet */
+@media (max-width: 368px) {
+
+}
